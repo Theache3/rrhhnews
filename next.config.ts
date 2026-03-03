@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  serverExternalPackages: ["typeorm", "mssql", "reflect-metadata", "exceljs"],
 };
 
 export default nextConfig;
